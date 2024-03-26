@@ -1,0 +1,10 @@
+[Unit]
+Description=ohayo_challenge
+
+[Service]
+Type=simple
+WorkingDirectory={Directory containing pnpm root}
+ExecStart=pnpm start
+
+[Install]
+WantedBy=multi-user.target

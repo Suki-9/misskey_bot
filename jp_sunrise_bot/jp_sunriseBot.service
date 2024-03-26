@@ -1,0 +1,10 @@
+[Unit]
+Description=jp_sunriseBot
+
+[Service]
+Type=simple
+WorkingDirectory={Directory containing index.js}
+ExecStart=node ./index.js
+
+[Install]
+WantedBy=multi-user.target

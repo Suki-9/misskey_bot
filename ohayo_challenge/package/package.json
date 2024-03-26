@@ -1,0 +1,22 @@
+{
+  "name": "ohayo_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/main.js",
+    "dev": "tsc && node ./dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "@types/node-cron": "^3.0.11",
+    "nanoid": "^3.0.0",
+    "node-cron": "^3.0.3",
+    "typescript": "^5.4.3"
+  }
+}
