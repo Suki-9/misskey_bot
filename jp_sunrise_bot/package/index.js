@@ -1,5 +1,5 @@
 const color = { red:'\u001b[31m',reset:'\u001b[0m',green:'\u001b[32m',blue:'\u001b[34m',bold:'\x1b[1m'};
-const config = JSON.parse(require('fs').readFileSync("./config.json", 'utf8'));
+const config = JSON.parse(require('fs').readFileSync("../config.json", 'utf8'));
 
 console.log(`${color.bold}日本の夜明けBot (v0.1.0)${color.reset}\nDeveloper: Suki(${color.green}misskey.io${color.reset} https://misskey.io/@suki_music)\n\n[${color.blue}configs${color.reset}]\n instanceUrl: ${config.instanceUrl}\n token: ${config.token}\n`)
 
