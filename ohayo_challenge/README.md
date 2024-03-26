@@ -1,11 +1,11 @@
-# jpYoakeBot
+# ohayo_challenge
 
 ## 何これは... ?
-東京の日の出の時間になったら「日本の夜明けぜよおおおぉぉぉぉ！」を投稿するMisskeyのBotです。
+AM7:00に`/\s*oha((po)?(nn)?yo+(sanoo__i|u)?|you(gozaimasu)?)\s*/`にマッチする投稿を記録しランキングを作成するBotです。
 
 ## 使い方
-config.jsonを作成してrootディレクトリに配置してください。(/jp_sunrise_bot)
-jp_sunriseBot.serviceは必要な所を追記して/etc/systemd/system/に配置してください。
+config.jsonを作成してrootディレクトリに配置してください。(/ohayo_challenge)
+ohayo_challenge.serviceは必要な所を追記して/etc/systemd/system/に配置してください。
 
 config.json
 ```json
